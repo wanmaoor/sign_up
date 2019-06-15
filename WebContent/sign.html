@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>注册页面</title>
+<style>
+.pageBg{
+		width:100%;
+		height:100%;
+		background:gray;
+	}
+
+</style>
+
+</head>
+<body>
+	<div class="pageBg">
+		<form action="sign.do" method="post">
+		   <fieldset style="width:500px">
+		     <legend>填写注册信息</legend>
+				 <label for="name">用户名：</label>
+				 <input type="text" name="username" id="name" /><br /> 
+				 
+				 <label for="mail">邮箱：&nbsp;&nbsp;&nbsp;&nbsp;</label>
+				 <input type="text" name="email" id="mail" /><br /> 
+				  
+				 <label for="keyword">密码：&nbsp;&nbsp;&nbsp;&nbsp;</label>
+				 <input type="password" name="userpwd" id="keyword" /><br /> 
+				 
+				 <input type="submit" value="注册" />
+           
+			</fieldset>
+		</form>
+	</div>
+
+</body>
+</html>
